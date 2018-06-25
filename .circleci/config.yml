@@ -1,0 +1,11 @@
+version: 2
+jobs:
+  build:
+
+    working_directory: ~/config_prac
+
+    steps:
+      - checkout
+
+      - run:
+          command: echo "hello world"
